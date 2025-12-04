@@ -18,7 +18,11 @@ A program az alábbi 7 analitikai kérdésre ad választ:
 ## Követelmények
 
 * **JDK:** Java Development Kit 21 (vagy újabb)
-* **Adatok:** A forrásfájloknak (CSV és JSON) a projekt gyökerében lévő `data/` mappában kell elhelyezkedniük.
+* **Adatok telepítése (FONTOS):**
+    * A projekt méretkorlátok miatt **nem tartalmazza** a nyers adatfájlokat.
+    * Kérlek, töltsd le a [Trending YouTube Video Statistics](https://www.kaggle.com/datasnaek/youtube-new) adatbázist a Kaggle-ről.
+    * A letöltött zip fájl tartalmát (a `.csv` és `.json` fájlokat) csomagold ki a projekt gyökerében található **`data/`** mappába.
+    * A program futtatásához szükséges, hogy a fájlok ebben a mappában legyenek (pl. `data/USvideos.csv`).
 
 ## Futtatás
 
