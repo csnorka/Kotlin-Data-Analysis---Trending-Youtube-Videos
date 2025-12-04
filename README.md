@@ -27,4 +27,17 @@ A projekt **Gradle** build rendszert használ. A futtatáshoz nem szükséges a 
 **Windows környezetben (CMD vagy PowerShell):**
 ```bash
 gradlew.bat run
+```
+
+**Linux vagy macOS környezetben:**
+
+```bash
 ./gradlew run
+```
+
+### Menü használata
+
+Az alkalmazás elindulása után egy konzolos menüben választhatod ki a kívánt elemzést a számok megadásával:
+
+  * **1-7**: A kívánt elemzés kiválasztása.
+  * **0**: Kilépés az alkalmazásból.
